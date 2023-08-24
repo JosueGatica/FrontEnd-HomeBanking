@@ -1,0 +1,35 @@
+/* estilos.css */
+.encabezado {
+    background-color: #020B12;
+    color: #DB5860;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    flex: 1;
+    margin: 0;
+    order: 2;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+
+img {
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 75%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    order: 1;
+}
+@media (max-width: 768px) {
+    .encabezado {
+        flex-direction: column;
+    }
+    
+    img {
+        margin-top: 10px;
+    }
+}
