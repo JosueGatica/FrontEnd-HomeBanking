@@ -119,8 +119,9 @@ body {
 
 main {
     min-height: 75vh;
-    width: 100vw;
+    width: 100%;
     background-image: url(./img/circle-scatter-haikei\ \(1\).svg);
+    background-size:cover;
 }
 
 .contenedor {
@@ -215,8 +216,24 @@ main {
     }
 }   
 
+/* FOOTER */
+
 footer {
-    height: ;
+  height: 60px;
+  display: flex;
+  background-color: #020B12;
+  margin-top: 2.15em;
 }
+
+.footer-text a {
+  color: #DB5860;
+  text-decoration: none;
+}
+
+.footer-img img {
+  height: 25px;
+  width: 25px;
+}
+
 
 
